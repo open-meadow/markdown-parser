@@ -1,0 +1,27 @@
+body {
+    max-height: 95vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#editor {
+    background-color: lightgray;
+    height: 95vh;
+    min-width: 50%;
+}
+
+#preview {
+    border-color: black;
+    padding: 1em;
+    height: 95vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
